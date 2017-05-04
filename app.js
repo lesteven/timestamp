@@ -34,7 +34,7 @@ app.get('/:id',function(req,res){
 	
 	})
 })
-app.listen(process.env.PORT || port,function(){
+app.listen((process.env.PORT || port),function(){
 	console.log(`Listening on port ${port}`)
 })
 
